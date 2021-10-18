@@ -4,4 +4,31 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\Visual Studio 2019\Projects\Rounds\Dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\Rounds_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\Visual Studio 2019\Projects\Rounds\Dependencies\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="CardChoiceSpawnUniqueCardPatch">
+      <HintPath>..\..\..\Visual Studio 2019\Projects\Rounds\Dependencies\CardChoiceSpawnUniqueCardPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="ModdingUtils">
+      <HintPath>..\..\..\Visual Studio 2019\Projects\Rounds\Dependencies\ModdingUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="UnboundLib">
+      <HintPath>..\..\..\Visual Studio 2019\Projects\Rounds\Dependencies\UnboundLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\Rounds_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\Rounds_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

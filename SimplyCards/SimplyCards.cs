@@ -33,7 +33,7 @@ namespace SimplyCards
         void Start()
         {
             instance = this;
-            CustomCard.BuildCard<MyCardName>(); // Repeat for each card to be built
+            CustomCard.BuildCard<EvasiveManeuvers>(); // Repeat for each card to be built
         }
     }
 }
